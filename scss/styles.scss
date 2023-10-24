@@ -1,23 +1,5 @@
 // Imports 
 
-@import 'utilities/index';
 @import 'base/index';
+@import 'utilities/index';
 @import 'component/index';
-
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-
-* {
-    font-family: 'Lato', sans-serif;
-    color: $primary-text-color;
-    box-sizing: border-box;
-  }
-  
-  p {
-    line-height: 1.45em;
-  }
-  
-  a {
-    text-decoration: none;
-  }
