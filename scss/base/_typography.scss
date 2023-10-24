@@ -1,10 +1,20 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
 * {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+  color: $primary-text-color;
+  box-sizing: border-box;
 }
-  
-  a {
-    text-decoration: none;
-  }
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* ============================================= */
 /*              Typography                       */
