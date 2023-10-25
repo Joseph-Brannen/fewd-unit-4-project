@@ -14,6 +14,9 @@ p {
 
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* ============================================= */
@@ -24,8 +27,8 @@ a {
     color: $primary-heading;
     margin-left: 10px;
   }
-  
-  .headline-secondary {
+   
+ .headline-secondary {
     font-weight: 300;
     color: $primary-text-color;
   }

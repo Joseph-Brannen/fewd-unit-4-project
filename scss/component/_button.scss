@@ -9,25 +9,49 @@
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
-    border-radius: 5px;
-  }
-  
+    border-radius: 5px; 
+    &:hover {
+      background-color: lighten($default, 15%);
+      transition: background-color 1s;
+    }
+} 
+
   .default {
-    background-color: #51ddfc;
+    background-color: $default;
+    &:hover {
+      background-color: lighten($default, 15%);
+      transition: background-color 1s;
+    }
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $error;
+    &:hover {
+      background-color: lighten($error, 15%);
+      transition: background-color 1s;
+    }
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $info;
+    &:hover {
+      background-color: lighten($info, 15%);
+      transition: background-color 1s;
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $success;
+    &:hover {
+      background-color: lighten($success, 15%);
+      transition: background-color 1s;
+    }
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $warning;
+    &:hover {
+      background-color: lighten($warning, 15%);
+      transition: background-color 1s;
+    }
   }
